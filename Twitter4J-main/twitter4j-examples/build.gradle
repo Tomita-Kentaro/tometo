@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+    id 'signing'
+    id 'maven-publish'
+    id 'org.jetbrains.kotlin.jvm' version '1.8.20'
+}
+
+group 'org.twitter4j'
+version '4.1.2'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':twitter4j-core')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+}
+compileKotlin {
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+compileTestKotlin {
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+}
+

@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/openSoundFolder"
+        android:title="@string/open_sound_folder"
+        xmlns:android="http://schemas.android.com/apk/res/android" />
+</menu>

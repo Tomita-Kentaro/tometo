@@ -1,0 +1,4 @@
+numpy
+pandas
+oauth2client
+gspread
